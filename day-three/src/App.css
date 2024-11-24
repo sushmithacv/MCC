@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Reset margin and padding */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* General styling for the App container */
+.App {
+  display: flex;
+  flex-direction: row; /* Aligns sections horizontally */
+  height: 100vh; /* Full viewport height */
+}
+
+/* General styling for sections */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333;
+  flex: 1; /* Ensures equal width for all sections */
+  text-align: center;
+}
+
+/* Individual section colors */
+.left {
+  background-color: #f4d87d; /* Green */
+}
+
+.center {
+  background-color: #7795af; /* Blue */
+}
+
+.right {
+  background-color: #c89696; /* Orange */
+}
